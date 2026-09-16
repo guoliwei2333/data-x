@@ -16,7 +16,8 @@ npm install
 ```bash
 npm run docs:dev
 ```
-![[Pasted image 20260914230613.png]]
+<img width="2786" height="1928" alt="image" src="https://github.com/user-attachments/assets/7c400670-90f2-4d61-b099-41fe396cb4a2" />
+
 
 # 在仓库根目录创建 Python 3.11 虚拟环境
 ```bash
@@ -26,16 +27,19 @@ python -m pip install --upgrade pip
 python -m pip install -r code/requirements-test.txt
 python -m pip check
 ```
-![[Pasted image 20260914232214.png]]
-![[Pasted image 20260914232345.png]]
+<img width="2012" height="838" alt="image" src="https://github.com/user-attachments/assets/e9b126e7-78d6-47a4-ac76-01957009b3d8" />
+<img width="2002" height="832" alt="image" src="https://github.com/user-attachments/assets/21e67dce-f574-4d16-869d-5c7c5230a0f0" />
+
 # 先跑不需要 API Key 和数据库的离线评测
 ```bash
 PYTHONPATH=code/D3:code python code/D3/d3_5_evaluate.py
 ```
-![[Pasted image 20260914233039.png]]
+<img width="2780" height="1876" alt="image" src="https://github.com/user-attachments/assets/2b33bb7e-c3ac-4de3-9474-46e4e7780e04" />
+
 # 真实模型示例才需要复制并填写本地配置
 ```bash
 cp code/.env.example code/.env
 python code/D1/d1_1_base.py
 ```
-![[Pasted image 20260914235814.png]]
+<img width="2006" height="340" alt="image" src="https://github.com/user-attachments/assets/796bc32b-18fd-4f5e-9f55-ad37714b77e5" />
+
