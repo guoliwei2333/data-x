@@ -6,8 +6,8 @@ git config --global https.proxy http://127.0.0.1:7897
 git clone https://github.com/datawhalechina/easy-data-x-ai.git
 cd easy-data-x-ai
 ```
+<img width="2784" height="1892" alt="image" src="https://github.com/user-attachments/assets/eb3709da-3c87-424a-93a8-fc1b595af2aa" />
 
-![[Pasted image 20260914230536.png]]
 # 安装依赖
 ```bash
 npm install
