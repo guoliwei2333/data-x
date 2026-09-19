@@ -1,3 +1,4 @@
+```bash
 cd easy-data-x-ai/code
 
 # 安装依赖
@@ -12,4 +13,5 @@ vim .env
 
 # 运行示例代码
 python D1/d1_1_base.py
+```
 <img width="2766" height="1850" alt="image" src="https://github.com/user-attachments/assets/04e223f1-884d-4012-ae43-35e668a6a169" />
